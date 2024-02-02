@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚗 Cars Zone
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/Ana-Alice-Honorio/car-zone?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Ana-Alice-Honorio/car-zone?style=for-the-badge)
+![last commit](https://img.shields.io/github/last-commit/Ana-Alice-Honorio/car-zone?style=for-the-badge")
+![Feito por Alice](https://img.shields.io/badge/feito-por%20Alice-D818A5")
 
-First, run the development server:
+![cars zone]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
+
+## ⚙️ Funcionalidades
+
+- [] Funcionalidade 1:
+  - [] Entidade 1
+  - [x] Entidade 2
+  - [x] Entidade 3
+  - [x] Entidade 4:
+    - Item 1
+    - Item 2
+
+- [x] Funcionalidade 1:
+  - [x] Entidade 1
+  - [x] Entidade 2
+
+---
+
+## Pré-requisitos
+
+- [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/) v18.17.1
+- [Next.js](https://nextjs.org/)
+
+## 🛣️ Como executar o projeto
+
+```sh
+$ git clone git@github.com:Ana-Alice-Honorio/car-zone.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```sh
+cd cars-zone
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Compilar para desenvolvimento
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Compilar para produção
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Lint com [ESLint](https://eslint.org/)
 
-## Deploy on Vercel
+```sh
+npm run lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### **Utilitários**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
+- Ícones:  **[Lets Icons](https://www.figma.com/file/TKBIZengDI2kqu3Wh0VFSo/Free-Icon-Pack-1700%2B-icons-(Community)?type=design&node-id=2165-5937&mode=design&t=XRgVcoOCv1SZKR4Z-0)**,  **[Font Awesome](https://fontawesome.com/)**, **[Emoji para copiar](https://emojisparacopiar.com/)**
+- Fontes:  **[next/font](https://nextjs.org/docs/basic-features/font-optimization)**
+- Estilo: **[Tailwind](https://tailwindcss.com/)**
+
+---
