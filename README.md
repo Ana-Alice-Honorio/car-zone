@@ -1,5 +1,9 @@
 # 🚗 Cars Zone
 
+![](./public/cars-zone-readme.png)
+
+## 🌐 Home Page pública de exibição de carros
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ana-Alice-Honorio/car-zone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Ana-Alice-Honorio/car-zone?style=for-the-badge)
 ![last commit](https://img.shields.io/github/last-commit/Ana-Alice-Honorio/car-zone?style=for-the-badge")
@@ -12,16 +16,23 @@
 ## ⚙️ Funcionalidades
 
 - [] Funcionalidade 1:
-  - [] Entidade 1
-  - [x] Entidade 2
-  - [x] Entidade 3
-  - [x] Entidade 4:
-    - Item 1
-    - Item 2
+  - [] Página inicial
+  - [] Login
 
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
+- [] Funcionalidade 2:
+  - [] Listagem de carros por ordem de valor
+  - [] Entidade 2
+
+- [] Funcionalidade 3:
+  - [] Login administrativo com token
+  - [] Só logar se houver autenticação
+  - [] Toda request precisa de um token válido
+
+- Funcionalidade 4:
+  - [] Cadastro de veículo precisa ter listagem, criação, edição e deleção de registros
+  - [] Precisa ter id, nome, marca, modelo e nome
+  - [] Backend em api rest
+  - [] Dados persistidos em banco de dados
 
 ---
 
@@ -31,6 +42,7 @@
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/) v18.17.1
 - [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## 🛣️ Como executar o projeto
 
@@ -64,11 +76,14 @@ npm run build
 npm run lint
 ```
 
-#### **Utilitários**
+### **Utilitários**
 
 - Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
-- Ícones:  **[Lets Icons](https://www.figma.com/file/TKBIZengDI2kqu3Wh0VFSo/Free-Icon-Pack-1700%2B-icons-(Community)?type=design&node-id=2165-5937&mode=design&t=XRgVcoOCv1SZKR4Z-0)**,  **[Font Awesome](https://fontawesome.com/)**, **[Emoji para copiar](https://emojisparacopiar.com/)**
+- Ícones:  **[heroicons](https://heroicons.com/)**, **[Emoji para copiar](https://emojisparacopiar.com/)**
 - Fontes:  **[next/font](https://nextjs.org/docs/basic-features/font-optimization)**
 - Estilo: **[Tailwind](https://tailwindcss.com/)**
+- Auth: **[Next Auth](https://next-auth.js.org/)**
+- Validação: **[Zod](https://zod.dev/)**
+- Criptografia: **[bcrypt](https://www.npmjs.com/package/bcrypt)**
 
 ---
