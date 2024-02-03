@@ -23,9 +23,9 @@ export default function Home() {
         <div>
           <Link
             href="/login"
-            className="flex items-end gap-5 self-end rounded-lg bg-white px-6 py-2 text-xl font-medium text-black transition-colors hover:bg-lightgray"
+            className="flex items-end self-end rounded-lg bg-white px-6 py-2 transition-colors hover:bg-lightgray"
           >
-            <span>Log in</span>
+            <span className="text-sm font-medium text-black ">Log in</span>
           </Link>
         </div>
       </header>
