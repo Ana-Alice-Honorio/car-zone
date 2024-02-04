@@ -1,6 +1,6 @@
 # 🚗 Cars Zone
 
-![](./public/cars-zone-readme.png)
+![foto do readme](./public/cars-zone-readme.png)
 
 ## 🌐 Home Page pública de exibição de carros
 

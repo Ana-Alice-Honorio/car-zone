@@ -1,12 +1,17 @@
+'use client';
+
+import { authenticate } from '@/app/utils/actions';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { AtSymbolIcon, KeyIcon } from '@heroicons/react/24/outline';
+import { AtSymbolIcon, KeyIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline';
+import { useFormState, useFormStatus } from 'react-dom';
   
 export default function LoginPage() {
+  const [errorMessage, dispatch] = useFormState(authenticate, undefined);
 
   return (
     <main className="flex items-center justify-center md:h-screen">    
       <div className="px-8 py-8 rounded-lg bg-gray w-100">
-        <form>
+        <form action={dispatch}>
         <div className="w-full flex justify-between items-center gap-2">
           <div>
             <label
@@ -49,6 +54,18 @@ export default function LoginPage() {
           </div>
          </div>
          <LoginButton />
+         <div
+          className="flex h-8 items-end space-x-1"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          {errorMessage && (
+            <>
+              <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
+              <p className="text-sm text-red-500">{errorMessage}</p>
+            </>
+          )}
+        </div>
         </form>
       </div>
     </main>
@@ -56,8 +73,9 @@ export default function LoginPage() {
 }
 
 function LoginButton() {
+  const { pending } = useFormStatus();
     return (
-        <button class="flex justify-center items-center bg-aquagray transition-colors hover:bg-lightgray text-black font-medium p-2 mt-3 rounded  w-full">Login
+        <button class="flex justify-center items-center bg-aquagray transition-colors hover:bg-lightgray text-black font-medium p-2 mt-3 rounded  w-full" aria-disabled={pending}>Login
             <ArrowRightIcon className="h-5 w-5 text-gray-50" />
         </button>
     );
