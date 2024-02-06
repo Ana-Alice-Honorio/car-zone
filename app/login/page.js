@@ -1,12 +1,12 @@
 'use client';
 
-import { authenticate } from '@/app/utils/actions';
+// import { authenticate } from '@/app/utils/actions';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { AtSymbolIcon, KeyIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline';
 import { useFormState, useFormStatus } from 'react-dom';
   
 export default function LoginPage() {
-  const [errorMessage, dispatch] = useFormState(authenticate, undefined);
+  const [errorMessage, dispatch] = useFormState(undefined);
 
   return (
     <main className="flex items-center justify-center md:h-screen">    
