@@ -75,7 +75,7 @@ export default function LoginPage() {
 function LoginButton() {
   const { pending } = useFormStatus();
     return (
-        <button class="flex justify-center items-center bg-aquagray transition-colors hover:bg-lightgray text-black font-medium p-2 mt-3 rounded  w-full" aria-disabled={pending}>Login
+        <button className="flex justify-center items-center bg-aquagray transition-colors hover:bg-lightgray text-black font-medium p-2 mt-3 rounded  w-full" aria-disabled={pending}>Login
             <ArrowRightIcon className="h-5 w-5 text-gray-50" />
         </button>
     );
