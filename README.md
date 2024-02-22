@@ -16,7 +16,7 @@
 ## ⚙️ Funcionalidades
 
 - [] Funcionalidade 1:
-  - [] Página inicial
+  - [x] Página inicial
   - [] Login
 
 - [] Funcionalidade 2:
